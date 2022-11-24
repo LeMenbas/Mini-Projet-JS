@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+
+
+img {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.al-c {
+    align-items: center;
+}
+
+.ac-c {
+    align-content: center;
+}
+
+.ma
+{
+    margin: auto;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    min-height: 100px;
+    background-color: #444 ;
+}
+
+header img {
+    width: 80px;
+    margin: 10px 0 10px 0;
+}
+
+header p {
+    font-size: 35px;
+    color: #f1f1f1;
+    margin-left: 25px;
+}
+.container {
+    max-width: 1320px;
+}
+
+
+/* MAIN */
+main {
+    min-height: 100vh;
+}
+main h1 {
+    padding-top: 15px;
+}
+main p {
+
+    font-size: 35px;
+}
+
+main button {
+    padding: 10px 20px;
+    margin: 400px 0 20px 900px;
+}
