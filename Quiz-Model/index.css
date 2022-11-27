@@ -57,6 +57,7 @@ main {
 main section {
     padding: 10px;
     margin: 10px;
+    transition:  0,25s ease;
     box-shadow: 2px 4px 6px 5px grey ;
     max-width: 500px;
     border-radius: 10px;
