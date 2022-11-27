@@ -1,5 +1,5 @@
 const button = document.querySelector('button')
-const colors = ["green", "red", "blue", "yellow"]
+const colors = ["green", "red", "blue", "yellow","grey"]
 const color = document.querySelector('.color')
 const main = document.querySelector('main')
 

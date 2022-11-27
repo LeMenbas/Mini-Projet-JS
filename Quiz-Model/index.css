@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img { 
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    min-height: 100px;
+    background-color: #444;
+    color: #f1f1f1;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* MAIN */
+
+main {
+    border: 1px solid black;
+    flex: 2 2 600px;
+}
+
+#reponse-1 {
+    visibility: hidden;
+    width: 250px;
+    margin: 10px auto 0;
+}
+
+#question1 {
+    background: url(/Quiz-Model/images/montfuji.jpg) center;
+}
+
+main section {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 4px 6px 5px grey ;
+    max-width: 500px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+main button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+/* ASIDE */
+
+aside {
+    flex: 1 1 400px;
+}
+
+aside article {
+    margin: 10px;
+    box-shadow: 2px 2px 6px 2px  #4f7a59;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
