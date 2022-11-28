@@ -20,6 +20,7 @@
 
 img { 
     width: 100%;
+    height: auto;
 }
 
 /* HEADER */
@@ -41,7 +42,7 @@ header h1 {
 
 main {
     border: 1px solid black;
-    flex: 2 2 600px;
+    flex: 2 2 900px;
 }
 
 #reponse-1 {
@@ -50,8 +51,21 @@ main {
     margin: 10px auto 0;
 }
 
+#reponse-2 {
+    visibility: hidden;
+    width: 250px;
+    margin: 10px auto 0;
+}
+
 #question1 {
-    background: url(/Quiz-Model/images/montfuji.jpg) center;
+    background: url(/Quiz-Model/images/montfuji.jpg) no-repeat center ;
+    background-size: cover;
+}
+#question2 {
+    background: url(/Quiz-Model/images/alsace.jpeg) no-repeat center ;
+    background-size: cover;
+    color: white;
+    font-weight: 900;
 }
 
 main section {
@@ -59,9 +73,11 @@ main section {
     margin: 10px;
     transition:  0,25s ease;
     box-shadow: 2px 4px 6px 5px grey ;
-    max-width: 500px;
+    /* max-width: 500px; */
+    min-height: 350px;
     border-radius: 10px;
     font-weight: bold;
+    flex: 1 1 350;
 }
 
 main button {
